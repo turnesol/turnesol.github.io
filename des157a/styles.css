@@ -1,4 +1,173 @@
-#banner {
-    width: 1100px;
-    height: 250px;
+
+body {
+    background-image: url(../des157a/img/Background_P1-01.png);
+    background-size: 1366px;
+    background-position-x:center;
+    background-repeat: no-repeat;
+
 }
+
+#banner {
+    display: grid;
+    width: 1100px;
+    height: 200px;
+    background-color:rgb(0, 127, 210);
+    margin:auto;
+    margin-top: 10px;
+    justify-content:center;
+
+    text-align: center;
+
+    box-shadow: 0px 0px 10px 10px rgb(100, 179, 253);
+}
+
+#banner:hover{
+    animation-name:bounce;
+    animation-duration:2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode:forwards;
+    animation-direction: alternate ;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce{
+    0% {margin-left:120px; box-shadow: 0px 0px 10px 10px rgb(100, 179, 253);}
+    40% {box-shadow: 0px 0px 10px 10px rgba(100, 179, 253, 0);}
+    60% {box-shadow: 0px 0px 10px 10px rgb(100, 179, 253);}
+    100% {margin-left: 160px; box-shadow: 0px 0px 10px 10px rgba(100, 179, 253, 0);}
+
+}
+
+#banner h1 {
+    font-family: 'Teko', sans-serif;
+    font-size:100px;
+    line-height:0px;
+    color: rgb(254,153,31);
+    text-shadow:0 7px rgb(250,121,32);
+    padding-top: 80px;
+    margin: 0px;
+}
+
+#banner h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    line-height:0px;
+    letter-spacing: 5px;
+    /* color: rgb(185, 151, 144); */
+    color:rgb(233, 224, 224);
+    padding-top:20px;
+}
+
+ul, li{
+    list-style: none;
+}
+
+#parent1{
+    display:flex;
+    justify-content: space-around;
+    margin-top:90px;
+    margin-left:120px;
+    margin-right:185px;
+}
+
+#heads{
+    color:rgb(233, 224, 224);
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    text-align:center;
+    padding-bottom: 15px;
+}
+
+#list1{
+    background-color:rgb(56,107,11);
+    border-style: solid;
+    border-radius: 15px;
+    border-color: whitesmoke;
+    padding-right:20px;
+    padding-left:20px;
+}
+
+#list2{
+    background-color:rgb(56,107,11);
+    border-style: solid;
+    border-radius: 15px;
+    border-color: whitesmoke;
+    padding-right:20px;
+    padding-left:20px;
+}
+
+#list3{
+    background-color:rgb(56,107,11);
+    border-style: solid;
+    border-radius: 15px;
+    border-color: whitesmoke;
+    padding-right:20px;
+    padding-left:20px;
+}
+
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color:rgb(233, 224, 224);
+    margin:0px;
+    padding-top:15px;
+}
+
+li a{
+    font-family:'Josefin Sans', sans-serif;
+    color:whitesmoke;
+    line-height:0px;
+    line-height: 30px;
+    text-decoration:none;
+}
+
+
+#snail{
+    position:absolute;
+    width:50px;
+    height:50px;
+    animation-name:crawl;
+    animation-timing-function: linear;
+    animation-duration:150s;
+    animation-iteration-count: infinite;
+    animation-direction: forwards;
+}
+
+@keyframes crawl{
+    from{right: 0;}
+    to{right: 100%;}
+}
+
+
+
+footer{
+    width:1366px;
+    margin:auto;
+    margin-top:50px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color:rgb(0, 127, 210);
+    
+}
+
+#bottom{
+    display:flex;
+    justify-content: space-around;
+    margin:auto;
+    margin-left: 30%;
+    margin-right:30%;
+}
+
+#bottom a{
+    font-family:'Josefin Sans', sans-serif;
+    color:rgb(233, 224, 224);
+}
+
+#bottom a:hover{
+    color:rgb(254,153,31)
+}
+
+a:hover{
+    color:rgb(254,153,31)
+}
+
+
