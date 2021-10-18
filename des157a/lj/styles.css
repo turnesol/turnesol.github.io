@@ -1,0 +1,48 @@
+body {
+    background-color: lightskyblue;
+    margin: 50px;
+    width: 1000px;
+    height:768px
+
+}
+
+article{
+    margin-left: 20px;
+} 
+
+body > h1{
+    padding-bottom:50px;
+    border-bottom-style:solid;
+    font-family: 'Playfair Display', serif;
+}
+#title {
+    display:flex;
+    justify-content: space-between;
+    color:rgb(80, 80, 80);
+    font-family: 'Playfair Display', serif;
+    font-size:12px;
+}
+
+p{
+    color:rgb(80, 80, 80);
+    padding-bottom:50px;
+    border-bottom-style:solid;
+    border-color:rgb(80, 80, 80);
+    font-family: 'Slabo 27px', serif;
+
+    column-count: 2;
+    column-gap: 40px;
+}
+footer{
+    display:flex;
+    justify-content: space-around;
+    list-style-type: none;
+    color:rgb(80, 80, 80);
+    margin-left:300px;
+    margin-right:300px;
+}
+
+a{
+    color:rgb(80, 80, 80);
+    text-decoration:none;
+}
