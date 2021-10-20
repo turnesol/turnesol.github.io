@@ -24,10 +24,10 @@ body > h1{
 }
 
 p{
-    color:rgb(80, 80, 80);
+    color:rgb(34, 34, 34);
     padding-bottom:50px;
     border-bottom-style:solid;
-    border-color:rgb(34, 34, 34);
+    border-color:rgb(104, 104, 104);
     font-family: 'Slabo 27px', serif;
 
     column-count: 2;
