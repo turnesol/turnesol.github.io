@@ -8,8 +8,8 @@
     <title>Build Mad Lib Script</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=La+Belle+Aurore&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=La+Belle+Aurore&display=swap" rel="stylesheet">
 
 
     <link rel="stylesheet" href="styles.css">
@@ -23,133 +23,145 @@
         <h2 id="date">DES 157a Fall Quarter 2021</h2>
     </header>
     <main>
-        <fieldset id="bigQestions">
+        <fieldset>
 
-            <legend for="yourName">Tell me a little bit about youself...</legend>
-            <form id="longForm">
-                <!-- yourName -->
-                <label for="yourName">What is your full name?</label>
-                <br>
-                <input type="text" name="yourName" id="yourName" required>
-                <br>
+            <form id="madLibs">
+                <article>
+                    <h3>Tell me a little bit about youself...</h3>
+                    <!-- yourName -->
+                    <label for="yourName">What is your full name?</label>
+                    <br>
+                    <input type="text" name="yourName" id="yourName" required>
+                    <br>
 
-                <!-- youLove -->
-                <label for="youLove">What is something you love?</label>
-                <br>
-                <input type="text" name="youLove" id="youLove" required>
-                <br>
+                    <!-- youLove -->
+                    <label for="youLove">What is something you love?</label>
+                    <br>
+                    <input type="text" name="youLove" id="youLove" required>
+                    <br>
 
-                <!-- threePrzdPoses -->
-                <label for="threePrzdPoses">What are your three most prized possessions?</label>
-                <br>
-                <input type="text" name="threePrzdPoses1" id="threePrzdPoses" required>
+                    <!-- threePrzdPoses -->
+                    <label for="threePrzdPoses">What are your three most prized possessions?</label>
+                    <br>
+                    <input type="text" name="threePrzdPoses1" id="threePrzdPoses1" required>
 
-                <input type="text" name="threePrzdPoses" id="threePrzdPoses" required>
+                    <input type="text" name="threePrzdPoses2" id="threePrzdPoses2" required>
 
-                <input type="text" name="threePrzdPoses" id="threePrzdPoses" required>
+                    <input type="text" name="threePrzdPoses3" id="threePrzdPoses3" required>
+                </article>
 
-            </form>
+                <!-- second half of form here -->
 
-        </fieldset>
+                <article>
+                    <h3>Please provide me with a...</h3>
 
-        <fieldset id="wordInput">
+                    <div id="secondQs">
+                        <!-- plurObject1 -->
+                        <label for="plurObject1">Plural Object</label>
+                        <input type="text" name="plurObject1" id="plurObject1" class="shortForm" required>
+                        <br>
 
-            <legend for=shortForm>Please provide me with a...</legend>
-            <form id="shortForm">
-                <!-- plurObject1 -->
-                <label for="plurObject1">Plural Object</label>
-                <input type="text" name="plurObject1" id="plurObject1" required>
-                <br>
-                <!-- bodyPart2 -->
-                <label for="bodyPart2">Body Part</label>
-                <input type="text" name="bodyPart2" id="bodyPart2" required>
-                <br>
-                <!-- noun3 -->
-                <label for="noun3">Noun</label>
-                <input type="text" name="noun3" id="noun3" required>
-                <br>
-                <!-- plurIncrmntTime4 -->
-                <label for="plurIncrmntTime4">Plural Increment of Time</label>
-                <input type="text" name="plurIncrmntTime4" id="plurIncrmntTime4" required>
-                <br>
-                <!-- adj5 -->
-                <label for="adj5">Adjective</label>
-                <input type="text" name="adj5" id="adj5" required>
-                <br>
-                <!-- adv6 -->
-                <label for="adv6">Adverb</label>
-                <input type="text" name="adv6" id="adv6" required>
-                <br>
-                <!-- groupOfPpl7 -->
-                <label for="groupOfPpl7">Group of People</label>
-                <input type="text" name="groupOfPpl7" id="groupOfPpl7" required>
-                <br>
-                <!-- adv8 -->
-                <label for="adv8">Adverb</label>
-                <input type="text" name="adv8" id="adv8" required>
-                <br>
-                <!-- noun9 -->
-                <label for="noun9">Noun</label>
-                <input type="text" name="noun9" id="noun9" required>
-                <br>
-                <!-- emo10 -->
-                <label for="emo10">Emotion</label>
-                <input type="text" name="emo10" id="emo10" required>
-                <br>
-                <!-- personalItem11 -->
-                <label for="personalItem11">Personal Item</label>
-                <input type="text" name="personalItem11" id="personalItem11" required>
-                <br>
-                <!-- verb12 -->
-                <label for="verb12">Verb</label>
-                <input type="text" name="verb12" id="verb12" required>
-                <br>
-                <!-- object13 -->
-                <label for="object13">Object</label>
-                <input type="text" name="object13" id="object13" required>
-                <br>
-                <!-- name14 -->
-                <label for="name14">Name</label>
-                <input type="text" name="name14" id="name14" required>
-                <br>
-                <!-- event15 -->
-                <label for="event15">Event</label>
-                <input type="text" name="event15" id="event15" required>
+                        <!-- bodyPart2 -->
+                        <label for="bodyPart2">Body Part</label>
+                        <input type="text" name="bodyPart2" id="bodyPart2" class="shortForm" required>
+                        <br>
 
-                <input id="sendBtn" class="open" type="submit" value="send">
+                        <!-- noun3 -->
+                        <label for="noun3">Noun</label>
+                        <input type="text" name="noun3" id="noun3" class="shortForm" required>
+                        <br>
 
-                <!-- <p>Click <a href = "#" class = "open">Here</a></p> -->
+                        <!-- plurIncrmntTime4 -->
+                        <label for="plurIncrmntTime4">Plural Increment of Time</label>
+                        <input type="text" name="plurIncrmntTime4" id="plurIncrmntTime4" class="shortForm" required>
+                        <br>
 
-                
+                        <!-- adj5 -->
+                        <label for="adj5">Adjective</label>
+                        <input type="text" name="adj5" id="adj5" class="shortForm" required>
+                        <br>
 
-                <article id="madlib">
+                        <!-- adv6 -->
+                        <label for="adv6">Adverb</label>
+                        <input type="text" name="adv6" id="adv6" class="shortForm" required>
+                        <br>
+
+                        <!-- groupOfPpl7 -->
+                        <label for="groupOfPpl7">Group of People</label>
+                        <input type="text" name="groupOfPpl7" id="groupOfPpl7" class="shortForm" required>
+                        <br>
+
+                        <!-- adv8 -->
+                        <label for="adv8">Adverb</label>
+                        <input type="text" name="adv8" id="adv8" class="shortForm" required>
+                        <br>
+
+                        <!-- noun9 -->
+                        <label for="noun9">Noun</label>
+                        <input type="text" name="noun9" id="noun9" class="shortForm" required>
+                        <br>
+
+                        <!-- emo10 -->
+                        <label for="emo10">Emotion</label>
+                        <input type="text" name="emo10" id="emo10" class="shortForm" required>
+                        <br>
+
+                        <!-- personalItem11 -->
+                        <label for="personalItem11">Personal Item</label>
+                        <input type="text" name="personalItem11" id="personalItem11" class="shortForm" required>
+                        <br>
+
+                        <!-- verb12 -->
+                        <label for="verb12">Verb</label>
+                        <input type="text" name="verb12" id="verb12" class="shortForm" required>
+                        <br>
+
+                        <!-- object13 -->
+                        <label for="object13">Object</label>
+                        <input type="text" name="object13" id="object13" class="shortForm" required>
+                        <br>
+
+                        <!-- name14 -->
+                        <label for="name14">Name</label>
+                        <input type="text" name="name14" id="name14" class="shortForm" required>
+                        <br>
+
+                        <!-- event15 -->
+                        <label for="event15">Event</label>
+                        <input type="text" name="event15" id="event15" class="shortForm" required>
+
+                    </div>
 
                 </article>
 
+                <input id="sendBtn" class="open" type="submit" value="send">
+
             </form>
+
         </fieldset>
 
 
 
     </main>
 
-        <section id="overlay" class="hidden">
-            <article>
-                <header id="overlayHeader">
-                    <h1 id="articleTitle">How Do I Love (LOVED ITEM)?</h1>
-                    <h2 id="articleCredit">By: Elizabeth Barrett Browning ft. (NAME)</h2>
-                </header>
+    <section id="overlay" class="hidden">
+        <article>
+            <header id="overlayHeader">
+                <h1 id="articleTitle">How Do I Love (LOVED ITEM)?</h1>
+                <h2 id="articleCredit">By: Elizabeth Barrett Browning ft. (NAME)</h2>
+            </header>
 
-                <main>
-                    <p id="poem">
-                        How do I love (LOVED ITEM NOUN)? Let me count the (OBJECT PLURAL). I love (LOVED ITEM NOUN) to the depth and breadth and height; My (PART OF BODY) can reach, when feeling out of sight; For the ends of being and ideal (NOUN). I love (LOVED ITEM NOUN) to the level of (PLURAL INCREMENT OF TIME); Most (ADJECTIVE) need, by sun and candle-light. I love (LOVED ITEM NOUN)  (ADVERB),  as (GROUP OF PEOPLE) strive for right. I love (LOVED ITEM NOUN) (ADVERB), as they turn from (NOUN). I love (LOVED ITEM NOUN) with the passion put to use; In my old (EMOTION), and with my (PERSONAL ITEM)’s faith. I love (LOVED ITEM NOUN) with a love I seemed to (VERB); With my lost (OBJECT). I love (LOVED ITEM NOUN) with the (MOST PRIZED POSSESSIONS), of all my life; and, if (NAME) choose, I shall but love (LOVED ITEM NOUN) better after (EVENT).</p>
-                </main>
+            <main>
+                <p id="poem"></p>
+            </main>
 
-            </article>
-        </section>
+            <button id="replay">Play Again!</button>
+
+        </article>
+    </section>
 
 
-    
+
     <footer>
 
     </footer>

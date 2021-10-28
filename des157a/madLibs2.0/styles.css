@@ -1,137 +1,142 @@
-body{
-    width:1389px;
-
-    background-color:#916B80;
+body {
+    width: 1389px;
+    background-color: #916B80;
     background-image: url(images/madLibsBackground01.png);
-    background-size:1368px;
-    background-repeat:no-repeat;
+    background-size: 1368px;
+    background-repeat: no-repeat;
 }
 
-header{
-    padding-top:80px;
+header {
+    padding-top: 80px;
     font-family: 'La Belle Aurore', cursive;
 }
-header h1{
-    text-align:center;
+
+header h1 {
+    text-align: center;
     line-height: 0px;
-    font-size:40px;
+    font-size: 40px;
 }
 
-header #name{
-    margin-left:450px;
+header #name {
+    margin-left: 450px;
     font-family: 'Caveat', cursive;
-    font-size:20px;
+    font-size: 20px;
 }
 
-header #date{
-    margin-right:450px;
-    text-align:right;
+header #date {
+    margin-right: 450px;
+    text-align: right;
     font-family: 'Caveat', cursive;
     line-height: 2px;
-    font-size:15px;
+    font-size: 15px;
 }
 
 
 /* form styling */
 
-
-
-#wordInput{
-    column-count:2;
-    column-gap:20px;
+input {
+    width: 50px;
+    height: 12px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid #7C6E5F;
+    border-radius: 10px;
+    ;
 }
 
-input{
-    width:50px;
-    height:12px;
-    background-color:rgba(255, 255, 255, 0);
-    border:2px solid #7C6E5F;
-    border-radius: 10px;;
+#secondQs {
+    column-count: 2;
 }
 
-#shortForm input{
-    float:right;
-    margin-right:15px;
+.shortForm {
+    float: right;
+    margin-right: 15px;
 }
 
-
-fieldset{
-    margin:auto;
-    width:450px;
+fieldset {
+    margin: auto;
+    width: 450px;
     font-family: 'Caveat', cursive;
-    border-style:none;
+    border-style: none;
 }
 
-fieldset legend{
-    font-size:25px;
-    line-height:20px;
+h3 {
+    font-size: 25px;
+    line-height: 0px;
 }
 
-label{
-    line-height:23px;
+label {
+    line-height: 15px;
 }
 
-#wordInput{
-    margin-top:10px;
-}
-
-#sendBtn{
-    width:100px;
-    height:25px;
-    float:right;
-    margin-right: 500px;
-    background-color:#18BEBC;
-    border-color:#6A8D91;
-
+#sendBtn {
+    width: 100px;
+    height: 25px;
+    float: right;
+    background-color: #18BEBC;
+    border-color: #6A8D91;
     font-family: 'Caveat', cursive;
-    font-size:25px;
-    line-height:0px;
-    text-align:center;
+    font-size: 25px;
+    line-height: 0px;
+    text-align: center;
 }
 
 
 /* overlay styling */
 
 .hidden {
-    display:none;
+    display: none;
 }
 
 .showing {
-    display:block;
+    display: block;
 }
 
-#overlay{
-    position:absolute;
-    width:1389px;
+#overlay {
+    position: absolute;
+    width: 1389px;
     height: 766px;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     background-image: url(images/madLibsBackground02.png);
-    background-size:1368px;
-    background-repeat:no-repeat;
-    text-align:center;
+    background-size: 1368px;
+    background-repeat: no-repeat;
+    text-align: center;
 }
 
 #articleTitle {
-    padding-top:20px;
-    font-size:30px;
+    padding-top: 20px;
+    font-size: 30px;
 }
 
 #articleCredit {
-    font-size:20px;
-    line-height:0;
-    padding-bottom:20px;
+    font-size: 20px;
+    line-height: 0;
+    padding-bottom: 20px;
     font-family: 'Caveat', cursive;
-    width:500px;
-    margin:auto;
+    width: 500px;
+    margin: auto;
 }
 
-#poem{
-    margin-left:450px;
-    margin-right:460px;
-    line-height:25px;
-    text-align:left;
+#poem {
+    margin-left: 450px;
+    margin-right: 460px;
+    line-height: 35px;
+    text-align: left;
     font-size: 20px;
     font-family: 'Caveat', cursive;
 }
 
+#replay {
+    width: 150px;
+    height: 25px;
+    border-radius: 15px;
+    border: 2px solid #7C6E5F;
+    float: right;
+    margin-right: 500px;
+    background-color: #18BEBC;
+    border-color: #6A8D91;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    line-height: 0px;
+    text-align: center;
+}
