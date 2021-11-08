@@ -1,0 +1,579 @@
+/* opening page styling */
+.cruessOff {
+    display: none;
+}
+
+.cruessOn {
+    display: block;
+}
+
+.artOff {
+    display: none;
+}
+
+.artOn {
+    display: block;
+}
+
+.MUOff {
+    display: none;
+}
+
+.MUOn {
+    display: block;
+}
+
+.libraryOff {
+    display: none;
+}
+
+.libraryOn {
+    display: block;
+}
+
+.siloOff {
+    display: none;
+}
+
+.siloOn {
+    display: block;
+}
+
+body{
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 1386px, 766px;
+    overflow:hidden;
+    cursor: url("images/cursor.cur"), default;
+}
+
+
+    
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top:280px;
+    width: 300px;
+}
+
+a{
+    font-family: 'Roboto', sans-serif;
+    color:#00a9f1;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: url("images/cursor.cur"), default;
+}
+
+a:hover{
+    color:#FFD200;
+}
+
+button:hover{
+    cursor: url("images/cursor.cur"), default;
+    color:#FFD200;
+}
+
+#intro{
+    width: 500px;
+    margin-left:40px;
+}
+
+#intro h1{
+    font-family: 'Roboto', sans-serif;
+    color:#72CDF4;
+    font-size: 50px;
+    line-height: 0px;
+    margin-top: 80px;
+}
+
+#intro h2{
+    font-family: 'Roboto', sans-serif;
+    color:#FFD200;
+    margin-top:0px;
+}
+
+#intro p{
+    margin-top: 40px;
+    text-indent: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+
+/* building animation */
+
+#cruess {
+    position:absolute;
+    top: 120px;
+    left: 804px;
+    width: 126px;
+    height: 68px;
+}
+
+#cruess:hover{
+    background-color:#ffd00056;
+}
+
+/* CRUESS overlay styling */
+
+#cruessBuildingOverlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.87);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* #backgroundBox{
+    position:absolute;
+    box-sizing:border-box;
+    background-image: linear-gradient(#005581, #FFE552);
+    width:900px;
+    height:550px;
+    top:40%;
+    left:100px;
+} */
+
+#cruessBuildingOverlay article {
+    width: 900px;
+    height: 80vh;
+    top: 28%;
+}
+
+#cruessBuildingOverlay article h1{
+    font-family: 'Roboto', sans-serif;
+    color:rgba(255, 255, 255, 0.897);
+    font-size:138px;
+    line-height: 0px;
+    margin-top: 80px;
+}
+
+#cruessBuildingOverlay article h2{
+    font-family: 'Roboto', sans-serif;
+    color:rgba(255, 255, 255, 0.76);
+    font-size:40px;
+    line-height:0px;
+    text-align:right;
+    margin-right: 30px;
+}
+
+#cruessBuildingOverlay article p{
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(255, 255, 255);
+    font-size:12px;
+    margin-left:550px;
+    margin-right: 20px;
+    line-height: 20px;
+}
+
+button{
+    position:absolute;
+    left: 80%;
+    border-color:rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
+    font-family: 'Roboto', sans-serif;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+/* end of overlay styling */
+
+/*  CRUESS overlay image animation */
+
+#cruessBuilding {
+    position:absolute;
+    padding-left:25px;
+    animation-name: move;
+    animation-duration: 2s;
+    padding-top:300px; 
+    animation-fill-mode: forwards;
+    top: 30%;
+}
+
+@keyframes move{
+    from {padding-top: 300px;}
+    to {padding-top:0px;}
+}
+
+/* art button */
+
+#art {
+    position:absolute;
+    top: 334px;
+    left: 1210px;
+    width: 153px;
+    height: 103px;
+}
+
+#art:hover{
+    background-color:#ffd00056;
+}
+
+/* ART overlay styling */
+
+#artOverlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.87);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.backgroundBox{
+    position:absolute;
+    box-sizing:border-box;
+    background-image: linear-gradient(#005581, #FFE552);
+    width:900px;
+    height:550px;
+    top:40%;
+    left:100px;
+}
+
+#artOverlay article {
+    width: 900px;
+    height: 80vh;
+    top: 28%;
+}
+
+#artOverlay article h1{
+    font-family: 'Roboto', sans-serif;
+    color:rgba(255, 255, 255, 0.897);
+    font-size:62px;
+    line-height: 0px;
+    margin-top: 80px;
+}
+
+#artOverlay article h2{
+    font-family: 'Roboto', sans-serif;
+    color:rgba(255, 255, 255, 0.76);
+    font-size:40px;
+    line-height:0px;
+    text-align:right;
+    margin-right: 30px;
+}
+
+#artOverlay article p{
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(255, 255, 255);
+    font-size:12px;
+    margin-left:550px;
+    margin-right: 20px;
+    line-height: 20px;
+}
+
+button{
+    position:absolute;
+    left: 80%;
+    border-color:rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
+    font-family: 'Roboto', sans-serif;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+/* end of overlay styling */
+
+/*  ART overlay image animation */
+
+#artBuilding {
+    position:absolute;
+    padding-left:25px;
+    animation-name: move;
+    animation-duration: 2s;
+    padding-top:300px; 
+    animation-fill-mode: forwards;
+    top: 30%;
+}
+
+@keyframes move{
+    from {padding-top: 300px;}
+    to {padding-top:0px;}
+}
+
+/* MU button */
+
+#memorialUnion {
+    position:absolute;
+    top: 151px;
+    left: 1031px;
+    width: 126px;
+    height: 68px;
+}
+
+#memorialUnion:hover{
+    background-color:#ffd00056;
+}
+
+/* MU overlay styling */
+
+#memorialUnionOverlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.87);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* #backgroundBox{
+    position:absolute;
+    box-sizing:border-box;
+    background-image: linear-gradient(#005581, #FFE552);
+    width:900px;
+    height:550px;
+    top:40%;
+    left:100px;
+} */
+
+#memorialUnionOverlay article {
+    width: 900px;
+    height: 80vh;
+    top: 28%;
+}
+
+#memorialUnionOverlay article h1{
+    font-family: 'Roboto', sans-serif;
+    color:rgba(255, 255, 255, 0.897);
+    font-size:105px;
+    line-height: 0px;
+    margin-top: 80px;
+}
+
+#memorialUnionOverlay article h2{
+    font-family: 'Roboto', sans-serif;
+    color:rgba(255, 255, 255, 0.76);
+    font-size:40px;
+    line-height:0px;
+    text-align:right;
+    margin-right: 30px;
+}
+
+#memorialUnionOverlay article p{
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(255, 255, 255);
+    font-size:12px;
+    margin-left:550px;
+    margin-right: 20px;
+    line-height: 20px;
+}
+
+button{
+    position:absolute;
+    left: 80%;
+    border-color:rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
+    font-family: 'Roboto', sans-serif;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+/* end of overlay styling */
+
+/*  MU overlay image animation */
+
+#memorialUnionBuilding {
+    position:absolute;
+    padding-left:25px;
+    animation-name: move;
+    animation-duration: 2s;
+    padding-top:300px; 
+    animation-fill-mode: forwards;
+    top: 30%;
+}
+
+@keyframes move{
+    from {padding-top: 300px;}
+    to {padding-top:0px;}
+}
+
+/* library button  */
+
+#library {
+    position:absolute;
+    top: 285px;
+    left: 1065px;
+    width: 130px;
+    height: 110px;
+}
+
+#library:hover{
+    background-color:#ffd00056;
+}
+
+/* Library overlay styling */
+
+#libraryOverlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.87);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* #backgroundBox{
+    position:absolute;
+    box-sizing:border-box;
+    background-image: linear-gradient(#005581, #FFE552);
+    width:900px;
+    height:550px;
+    top:40%;
+    left:100px;
+} */
+
+#libraryOverlay article {
+    width: 900px;
+    height: 80vh;
+    top: 28%;
+}
+
+#libraryOverlay article h1{
+    font-family: 'Roboto', sans-serif;
+    color:rgba(255, 255, 255, 0.897);
+    font-size:105px;
+    line-height: 0px;
+    margin-top: 80px;
+}
+
+#libraryOverlay article h2{
+    font-family: 'Roboto', sans-serif;
+    color:rgba(255, 255, 255, 0.76);
+    font-size:40px;
+    line-height:0px;
+    text-align:right;
+    margin-right: 30px;
+}
+
+#libraryOverlay article p{
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(255, 255, 255);
+    font-size:12px;
+    margin-left:550px;
+    margin-right: 20px;
+    line-height: 20px;
+}
+
+button{
+    position:absolute;
+    left: 80%;
+    border-color:rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
+    font-family: 'Roboto', sans-serif;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+/* end of overlay styling */
+
+/*  Library overlay image animation */
+
+#libraryBuilding {
+    position:absolute;
+    padding-left:25px;
+    animation-name: move;
+    animation-duration: 2s;
+    padding-top:300px; 
+    animation-fill-mode: forwards;
+    top: 40%;
+}
+
+@keyframes move{
+    from {padding-top: 300px;}
+    to {padding-top:0px;}
+}
+
+/* silo button  */
+#silo {
+    position:absolute;
+    top: 395px;
+    left: 885px;
+    width: 90px;
+    height: 75px;
+}
+
+#silo:hover{
+    background-color:#ffd00056;
+}
+
+/* Silo overlay styling */
+
+#siloOverlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.87);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#siloOverlay article {
+    width: 900px;
+    height: 80vh;
+    top: 28%;
+}
+
+#siloOverlay article h1{
+    font-family: 'Roboto', sans-serif;
+    color:rgba(255, 255, 255, 0.897);
+    font-size:105px;
+    line-height: 0px;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+#siloOverlay article h2{
+    font-family: 'Roboto', sans-serif;
+    color:rgba(255, 255, 255, 0.76);
+    font-size:40px;
+    line-height:0px;
+    text-align:right;
+    margin-right: 30px;
+}
+
+#siloOverlay article p{
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(255, 255, 255);
+    font-size:12px;
+    margin-left:550px;
+    margin-right: 20px;
+    line-height: 20px;
+}
+
+button{
+    position:absolute;
+    left: 80%;
+    border-color:rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
+    font-family: 'Roboto', sans-serif;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+/* end of overlay styling */
+
+/*  Silo overlay image animation */
+
+#siloBuilding {
+    position:absolute;
+    padding-left:25px;
+    animation-name: move;
+    animation-duration: 2s;
+    padding-top:300px; 
+    animation-fill-mode: forwards;
+    top: 30%;
+}
+
+@keyframes move{
+    from {padding-top: 300px;}
+    to {padding-top:0px;}
+}
+
