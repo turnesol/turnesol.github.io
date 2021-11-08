@@ -10,14 +10,12 @@
         }
     });
 
+    const longForm = document.querySelector('#madLibs');
 
+    console.log(madLibs);
     madLibs.addEventListener('submit', function(event) {
         event.preventDefault();
-
-        //change overlay section to have class showing
-        document.getElementById('overlay').className = "showing";
-
-
+        console.log('hi');
         let yourName = document.querySelector('#yourName').value;
         let youLove = document.querySelector('#youLove').value;
         let threePrzdPoses1 = document.querySelector('#threePrzdPoses1').value;
@@ -40,22 +38,14 @@
         let name14 = document.querySelector('#name14').value;
         let event15 = document.querySelector('#event15').value;
 
-        let myTitle = `How Do I Love ${youLove}?`;
-
-        document.querySelector('#articleTitle').innerHTML = myTitle;
-
-        let myCredit = `By: Elizabeth Barrett Browning ft. ${yourName}`;
-
-        document.querySelector('#articleCredit').innerHTML = myCredit;
+        //change overlay section to have class showing
+        document.getElementById('overlay').className = "showing";
 
         let myText = `How do I love ${youLove}? Let me count the ${plurObject1}. I love ${youLove} to the depth and breadth and height; My ${bodyPart2} can reach, when feeling out of sight; For the ends of being and ideal ${noun3}. I love ${youLove} to the level of ${plurIncrmntTime4}; Most ${adj5} need, by sun and candle-light. I love ${youLove}  ${adv6},  as ${groupOfPpl7} strive for right. I love ${youLove} ${adv8}, as they turn from ${noun9}. I love ${youLove} with the passion put to use; In my old ${emo10}, and with my ${personalItem11}’s faith. I love ${youLove} with a love I seemed to ${verb12}; With my lost ${object13}. I love ${youLove} with the ${threePrzdPoses1},${threePrzdPoses2},${threePrzdPoses3}, of all my life; and, if ${name14} choose, I shall but love ${youLove} better after ${event15}.`;
 
 
         document.querySelector('#poem').innerHTML = myText;
-
     });
-
-    
 
     const restart = document.querySelector('#replay').addEventListener('click', function(e) {
         e.preventDefault();
