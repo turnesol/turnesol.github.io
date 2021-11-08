@@ -124,24 +124,16 @@ button:hover{
     top: 0;
     left: 0;
     width: 100vw;
-    height: 100vh;
+    height:100vh;
     overflow: hidden;
 }
 
-/* #backgroundBox{
-    position:absolute;
-    box-sizing:border-box;
-    background-image: linear-gradient(#005581, #FFE552);
-    width:900px;
-    height:550px;
-    top:40%;
-    left:100px;
-} */
 
 #cruessBuildingOverlay article {
     width: 900px;
     height: 80vh;
-    top: 28%;
+    top: 50%;
+
 }
 
 #cruessBuildingOverlay article h1{
@@ -191,7 +183,7 @@ button{
     animation-duration: 2s;
     padding-top:300px; 
     animation-fill-mode: forwards;
-    top: 30%;
+    top: 40%;
 }
 
 @keyframes move{
@@ -230,9 +222,10 @@ button{
     box-sizing:border-box;
     background-image: linear-gradient(#005581, #FFE552);
     width:900px;
-    height:550px;
+    height:437px;
     top:40%;
     left:100px;
+    overflow: hidden;
 }
 
 #artOverlay article {
@@ -288,7 +281,7 @@ button{
     animation-duration: 2s;
     padding-top:300px; 
     animation-fill-mode: forwards;
-    top: 30%;
+    top: 40%;
 }
 
 @keyframes move{
@@ -321,16 +314,6 @@ button{
     height: 100vh;
     overflow: hidden;
 }
-
-/* #backgroundBox{
-    position:absolute;
-    box-sizing:border-box;
-    background-image: linear-gradient(#005581, #FFE552);
-    width:900px;
-    height:550px;
-    top:40%;
-    left:100px;
-} */
 
 #memorialUnionOverlay article {
     width: 900px;
@@ -385,12 +368,12 @@ button{
     animation-duration: 2s;
     padding-top:300px; 
     animation-fill-mode: forwards;
-    top: 30%;
+    top: 40%;
 }
 
 @keyframes move{
     from {padding-top: 300px;}
-    to {padding-top:0px;}
+    to {padding-top:px;}
 }
 
 /* library button  */
@@ -419,15 +402,6 @@ button{
     overflow: hidden;
 }
 
-/* #backgroundBox{
-    position:absolute;
-    box-sizing:border-box;
-    background-image: linear-gradient(#005581, #FFE552);
-    width:900px;
-    height:550px;
-    top:40%;
-    left:100px;
-} */
 
 #libraryOverlay article {
     width: 900px;
@@ -482,7 +456,7 @@ button{
     animation-duration: 2s;
     padding-top:300px; 
     animation-fill-mode: forwards;
-    top: 40%;
+    top: 50%;
 }
 
 @keyframes move{
@@ -569,7 +543,7 @@ button{
     animation-duration: 2s;
     padding-top:300px; 
     animation-fill-mode: forwards;
-    top: 30%;
+    top: 40%;
 }
 
 @keyframes move{
