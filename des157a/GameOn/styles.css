@@ -1,0 +1,209 @@
+body {
+    background-image: url('images/gameBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: 1366px 768px;
+
+}
+
+h1 {
+    padding-top:100px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 120px;
+    line-height: 0;
+    text-align: center;
+    text-shadow: -5px 5px 0 rgb(255, 131, 214);
+    color:rgb(177, 0, 147);
+
+    background-color: rgb(162, 255, 139);
+    padding:30px;
+}
+
+
+
+body p{
+    background-color:rgb(255, 131, 214);
+    padding:30px;
+    line-height: 30px;
+    font-family: 'Heebo', sans-serif;
+    font-size:20px;
+    width: 750px;
+    margin-left:20vw;
+
+}
+
+button { 
+    font-family: 'Heebo', sans-serif;
+    font-weight: 900;
+    font-size:70px;
+    color:white;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgb(91, 219, 59);
+    border-bottom-style: soild;
+    border-bottom-width: 20px;
+    border-left-style: solid;
+    border-left-width:20px;
+    border-color:rgb(255, 131, 214);
+    margin-left: 39vw;
+}
+
+#quit {
+    font-size: 17px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    color: rgb(201, 201, 201);
+    border-style:none;
+    background-color:rgba(255, 250, 250, 0);
+    margin-left:90vw;
+
+}
+
+#quit:hover{
+    color:rgb(243, 122, 223);
+}
+
+#roll {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 900;
+    font-size:40px;
+    color:white;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgb(91, 219, 59);
+    border-bottom-style: soild;
+    border-bottom-width: 10px;
+    border-left-style: solid;
+    border-left-width:10px;
+    border-color:rgb(255, 131, 214);
+    margin-top:35vh;
+    margin-left: 39vw;
+}
+
+#line{
+    height: 1000px;
+    width:680px;
+    top:-10vh;
+    overflow:hidden;
+    position:absolute;
+    border-right-style:solid;
+    border-right-width:10px;
+    z-index: -10;
+}
+
+#pigs {
+    position:absolute;
+    width:400px;
+    top: 35vh;
+    left:6vw;
+}
+
+#wolfBox {
+    position:absolute;
+    /* z-index: 10; */
+    left: 68vw;
+    top:15vh;
+}
+
+#dice{
+    position:absolute;
+    z-index: 10;
+    top:45vh;
+    left:40vw;
+}
+
+#die2 {
+    position:absolute;
+    transform: rotate(160deg);
+    left:9vw;
+
+}
+
+#scoreList{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 900;
+    font-size:50px;
+    color:white;
+    padding-left:200px;
+    padding-right:200px;
+    width: 1000px;
+    padding-top:550px;
+}
+
+
+#bottom{
+    display: flex;
+    position:absolute;
+    justify-content: space-between;
+    margin-left:800px;
+    list-style-type: none;
+    top:0vh;
+}
+
+#bottom a{
+    color:rgb(199, 199, 199);
+    font-family: 'Heebo', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    margin:20px;
+    line-height: 0;
+}
+
+#rollagain {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    font-size:30px;
+    color:white;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgb(91, 219, 59);
+    border-bottom-style: soild;
+    border-bottom-width: 10px;
+    border-left-style: solid;
+    border-left-width:10px;
+    border-color:rgb(255, 131, 214);
+    
+    position:absolute;
+    top:70vh;
+    left:-10vw;
+}
+
+#pass {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    font-size:30px;
+    color:white;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgb(91, 219, 59);
+    border-bottom-style: soild;
+    border-bottom-width: 10px;
+    border-left-style: solid;
+    border-left-width:10px;
+    border-color:rgb(255, 131, 214);
+    
+    position:absolute;
+    top:70vh;
+    left:15vw;
+}
+
+/* div {
+    padding: 20px;
+} */
+
+/* #gamecontrol, #score {
+    background-color: aliceblue;
+}
+
+#game {
+    background-color:#eaeaea;
+}
+#actions {
+    background-color: silver;
+} */
