@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of PIG</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500;900&display=swap" rel="stylesheet"> 
+
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+
+<body id="background">
+    <div id="intro">
+        <h1>Game of PIG</h1>
+        <p>There are two players. The player whose turn it is rolls the dice. The total of the roll is added to the current player's score, unless either die comes up as a "one". If this happens, this player's turn is over, and it is the other player’s turn.
+            After each roll, the current player can either roll again, (assuming a "one" was not rolled) or if the current player feels that luck is running thin, they can pass to the other player. The first player to get 30 points or higher wins.<br>Oh, and if you roll two "ones" (snake eyes), your current score gets zeroed out. So don’t do that.</p>
+
+    </div>
+
+    
+
+    <div id="gamecontrol">
+        <h2></h2>
+        <button id="startgame">Play!</button>
+        <!-- I dont want there to be a random start I want it to always start with the Pigs -->
+    </div>
+
+    <div id="game"></div>
+    <div id="actions"></div>
+    <div id="score"></div>
+
+    <script src="script.js"></script>
+
+    <footer>
+
+
+        <ul id="bottom">
+            <li><a href="mailto:egnordman@ucdavis.edu">My Email</a></li>
+            <li><a href="https://validator.w3.org/check?uri=https://turnesol.github.io/des157a/index.html" target="_blank">HTML Validator</a>
+            </li>
+            <li><a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank">CSS Validator</a></li>
+        </ul>
+    
+    
+    </footer>
+
+
+</body>
+
+</html>
