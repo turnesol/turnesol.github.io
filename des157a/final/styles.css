@@ -1,69 +1,598 @@
-body {
-    background-color: gainsboro;
-    width:1366px;
+.cruessOff {
+    display: none;
+}
+
+.cruessOn {
+    display: block;
+}
+
+.artOff {
+    display: none;
+}
+
+.artOn {
+    display: block;
+}
+
+.MUOff {
+    display: none;
+}
+
+.MUOn {
+    display: block;
+}
+
+.libraryOff {
+    display: none;
+}
+
+.libraryOn {
+    display: block;
+}
+
+.siloOff {
+    display: none;
+}
+
+.siloOn {
+    display: block;
+}
+
+body{
+    background-image: url(images/designComp.png);
+    background-repeat: no-repeat;
+    background-size: 1386px, 766px;
+    overflow:hidden;
+    cursor: url("images/cursor.cur"), default;
 }
 
 header{
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-bottom: 20px;
-    border-bottom: solid rgb(66, 66, 66);
+    display:none;
 }
 
-h1{
-    text-align: center;
-    padding-top:50px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 40px;
-}
-
-header h2{
-    padding-top:20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30px;
-}
-
-article{
-    column-count: 2;
-    column-gap: 70px;
-    width:1000px;
-    margin-left:200px;
-    margin-right:200px;
-    padding-top:30px;
-}
-
-article h2{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    padding-top:20px;
-}
-
-img{
-    width:400px;
-    padding-left:30px;
-    padding-right:30px;
-}
-
-p{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    line-height: 30px;
-}
-
-ul{
-    display: flex;
+ul {
     list-style-type: none;
-    justify-content: space-around;
-    width:1000px;
-    margin:auto;
-
-    border-top: solid black;
-    margin-top:40px;
-    padding-top:40px;
-    padding-bottom:20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top:160px;
+    width: 300px;
 }
 
 a{
-    color:cadetblue;
+    font-family: 'Roboto', sans-serif;
+    color:#00a9f1;
     text-decoration: none;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    cursor: url("images/cursor.cur"), default;
 }
+
+a:hover{
+    color:#FFD200;
+}
+
+button:hover{
+    cursor: url("images/cursor.cur"), default;
+    color:#FFD200;
+}
+
+#intro{
+    width: 500px;
+    margin-left:60px;
+    padding-top:250px;
+}
+
+#intro h1{
+    font-family: 'Roboto', sans-serif;
+    color:#72CDF4;
+    font-size: 50px;
+    line-height: 0px;
+    margin-top: 80px;
+}
+
+#intro h2{
+    font-family: 'Roboto', sans-serif;
+    color:#FFD200;
+    margin-top:0px;
+}
+
+#intro p{
+    margin-top: 40px;
+    text-indent: 30px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 25px;
+}
+
+/* other links */
+
+#quad{
+    width:45px;
+    height:45px;
+    border-radius: 50px;
+    position:absolute;
+    top:255px;
+    left:1190px;
+}
+
+#quad:hover{
+    background-color: rgba(255, 242, 60, 0.699);
+}
+
+#pavilion{
+    width:45px;
+    height:45px;
+    border-radius: 50px;
+    position:absolute;
+    top:400px;
+    left:790px;
+}
+
+#pavilion:hover{
+    background-color: rgba(255, 242, 60, 0.699);
+}
+
+#california{
+    width:45px;
+    height:45px;
+    border-radius: 50px;
+    position:absolute;
+    top:350px;
+    left:1060px;
+}
+
+#california:hover{
+    background-color: rgba(255, 242, 60, 0.699);
+}
+
+/* building animation */
+
+#cruess {
+    position:absolute;
+    top: 86px;
+    left: 907.5px;
+    width: 126px;
+    height: 68px;
+}
+
+#cruess:hover{
+    background-color:#ffd00056;
+}
+
+/* CRUESS overlay styling */
+
+#cruessBuildingOverlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.87);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height:100vh;
+    overflow: hidden;
+}
+
+
+#cruessBuildingOverlay article {
+    width: 900px;
+    height: 80vh;
+    top: 50%;
+
+}
+
+#cruessBuildingOverlay article h1{
+    font-family: 'Roboto', sans-serif;
+    color:rgba(255, 255, 255, 0.897);
+    font-size:138px;
+    line-height: 0px;
+    margin-top: 80px;
+    margin-bottom:70px;
+}
+
+#cruessBuildingOverlay article h2{
+    font-family: 'Roboto', sans-serif;
+    color:rgba(255, 255, 255, 0.76);
+    font-size:40px;
+    line-height:0px;
+    text-align:right;
+    margin-right: 30px;
+}
+
+#cruessBuildingOverlay article p{
+    font-family: 'Poppins', sans-serif;
+    color:rgb(0, 0, 0);
+    font-size:12px;
+    margin-left:550px;
+    margin-right: 20px;
+    line-height: 20px;
+}
+
+button{
+    position:absolute;
+    left: 80%;
+    border-color:rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
+    font-family: 'Roboto', sans-serif;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+/* end of overlay styling */
+
+/*  CRUESS overlay image animation */
+
+#cruessBuilding {
+    position:absolute;
+    padding-left:25px;
+    animation-name: move;
+    animation-duration: 2s;
+    padding-top:300px; 
+    animation-fill-mode: forwards;
+    top: 40%;
+}
+
+@keyframes move{
+    from {padding-top: 300px;}
+    to {padding-top:0px;}
+}
+
+/* art button */
+
+#art {
+    position:absolute;
+    top: 330px;
+    left: 1216px;
+    width: 153px;
+    height: 103px;
+}
+
+#art:hover{
+    background-color:#ffd00056;
+}
+
+/* ART overlay styling */
+
+#artOverlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.87);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.backgroundBox{
+    position:absolute;
+    box-sizing:border-box;
+    background-image: linear-gradient(#005581, #FFE552);
+    width:900px;
+    height:437px;
+    top:40%;
+    left:100px;
+    overflow: hidden;
+}
+
+#artOverlay article {
+    width: 900px;
+    height: 80vh;
+    top: 28%;
+}
+
+#artOverlay article h1{
+    font-family: 'Roboto', sans-serif;
+    color:rgba(255, 255, 255, 0.897);
+    font-size:62px;
+    line-height: 0px;
+    margin-top: 80px;
+}
+
+#artOverlay article h2{
+    font-family: 'Roboto', sans-serif;
+    color:rgba(255, 255, 255, 0.76);
+    font-size:40px;
+    line-height:0px;
+    text-align:right;
+    margin-right: 30px;
+}
+
+#artOverlay article p{
+    font-family: 'Poppins', sans-serif;
+    color:rgb(0, 0, 0);
+    font-size:12px;
+    margin-left:550px;
+    margin-right: 20px;
+    line-height: 20px;
+}
+
+button{
+    position:absolute;
+    left: 80%;
+    border-color:rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
+    font-family: 'Roboto', sans-serif;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+/* end of overlay styling */
+
+/*  ART overlay image animation */
+
+#artBuilding {
+    position:absolute;
+    padding-left:25px;
+    animation-name: move;
+    animation-duration: 2s;
+    padding-top:300px; 
+    animation-fill-mode: forwards;
+    top: 40%;
+}
+
+@keyframes move{
+    from {padding-top: 300px;}
+    to {padding-top:0px;}
+}
+
+/* MU button */
+
+#memorialUnion {
+    position:absolute;
+    top: 134px;
+    left: 1124px;
+    width: 128px;
+    height: 68px;
+}
+
+#memorialUnion:hover{
+    background-color:#ffd00056;
+}
+
+/* MU overlay styling */
+
+#memorialUnionOverlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.87);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#memorialUnionOverlay article {
+    width: 900px;
+    height: 80vh;
+    top: 28%;
+}
+
+#memorialUnionOverlay article h1{
+    font-family: 'Roboto', sans-serif;
+    color:rgba(255, 255, 255, 0.897);
+    font-size:105px;
+    line-height: 0px;
+    margin-top: 80px;
+}
+
+#memorialUnionOverlay article h2{
+    font-family: 'Roboto', sans-serif;
+    color:rgba(255, 255, 255, 0.76);
+    font-size:40px;
+    line-height:0px;
+    text-align:right;
+    margin-right: 30px;
+}
+
+#memorialUnionOverlay article p{
+    font-family: 'Poppins', sans-serif;
+    color:rgb(0, 0, 0);
+    font-size:12px;
+    margin-left:550px;
+    margin-right: 20px;
+    line-height: 20px;
+}
+
+button{
+    position:absolute;
+    left: 80%;
+    border-color:rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
+    font-family: 'Roboto', sans-serif;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+/* end of overlay styling */
+
+/*  MU overlay image animation */
+
+#memorialUnionBuilding {
+    position:absolute;
+    padding-left:25px;
+    animation-name: move;
+    animation-duration: 2s;
+    padding-top:300px; 
+    animation-fill-mode: forwards;
+    top: 40%;
+}
+
+@keyframes move{
+    from {padding-top: 300px;}
+    to {padding-top:px;}
+}
+
+/* library button  */
+
+#library {
+    position:absolute;
+    top: 245px;
+    left: 1025px;
+    width: 130px;
+    height: 110px;
+}
+
+#library:hover{
+    background-color:#ffd00056;
+}
+
+/* Library overlay styling */
+
+#libraryOverlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.87);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+#libraryOverlay article {
+    width: 900px;
+    height: 80vh;
+    top: 28%;
+}
+
+#libraryOverlay article h1{
+    font-family: 'Roboto', sans-serif;
+    color:rgba(255, 255, 255, 0.897);
+    font-size:105px;
+    margin-bottom:55px;
+    line-height: 0px;
+    margin-top: 80px;
+}
+
+#libraryOverlay article h2{
+    font-family: 'Roboto', sans-serif;
+    color:rgba(255, 255, 255, 0.76);
+    font-size:40px;
+    line-height:0px;
+    text-align:right;
+    margin-right: 30px;
+}
+
+#libraryOverlay article p{
+    font-family: 'Poppins', sans-serif;
+    color:rgb(0, 0, 0);
+    font-size:12px;
+    margin-left:550px;
+    margin-right: 20px;
+    line-height: 20px;
+}
+
+button{
+    position:absolute;
+    left: 80%;
+    border-color:rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
+    font-family: 'Roboto', sans-serif;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+/* end of overlay styling */
+
+/*  Library overlay image animation */
+
+#libraryBuilding {
+    position:absolute;
+    padding-left:25px;
+    animation-name: move;
+    animation-duration: 2s;
+    padding-top:300px; 
+    animation-fill-mode: forwards;
+    top: 50%;
+}
+
+@keyframes move{
+    from {padding-top: 300px;}
+    to {padding-top:0px;}
+}
+
+/* silo button  */
+#silo {
+    position:absolute;
+    top: 349px;
+    left: 850px;
+    width: 90px;
+    height: 75px;
+}
+
+#silo:hover{
+    background-color:#ffd00056;
+}
+
+/* Silo overlay styling */
+
+#siloOverlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.87);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#siloOverlay article {
+    width: 900px;
+    height: 80vh;
+    top: 28%;
+}
+
+#siloOverlay article h1{
+    font-family: 'Roboto', sans-serif;
+    color:rgba(255, 255, 255, 0.897);
+    font-size:105px;
+    line-height: 0px;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+#siloOverlay article h2{
+    font-family: 'Roboto', sans-serif;
+    color:rgba(255, 255, 255, 0.76);
+    font-size:40px;
+    line-height:0px;
+    text-align:right;
+    margin-right: 30px;
+}
+
+#siloOverlay article p{
+    font-family: 'Poppins', sans-serif;
+    color:rgb(0, 0, 0);
+    font-size:12px;
+    margin-left:550px;
+    margin-right: 20px;
+    line-height: 20px;
+}
+
+button{
+    position:absolute;
+    left: 80%;
+    border-color:rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
+    font-family: 'Roboto', sans-serif;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+/* end of overlay styling */
+
+/*  Silo overlay image animation */
+
+#siloBuilding {
+    position:absolute;
+    padding-left:25px;
+    animation-name: move;
+    animation-duration: 2s;
+    padding-top:300px; 
+    animation-fill-mode: forwards;
+    top: 40%;
+}
+
+@keyframes move{
+    from {padding-top: 300px;}
+    to {padding-top:0px;}
+}
+
+
+
