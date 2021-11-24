@@ -16,6 +16,13 @@
 </head>
 
 <body id="background">
+    <audio id="diceSound">
+        <source src="audio/diceSound.mp3" type="audio/mp3">
+    </audio>
+
+    <audio id="gameTheme" src="audio/gameTheme.mp3" type="audio/mp3" volume ="0.6" loop="loop">
+    </audio>
+
     <div id="intro">
         <h1>Game of PIG</h1>
         <p>There are two players. The player whose turn it is rolls the dice. The total of the roll is added to the current player's score, unless either die comes up as a "one". If this happens, this player's turn is over, and it is the other player’s turn.
@@ -41,7 +48,7 @@
 
 
         <ul id="bottom">
-            <li><a href="mailto:egnordman@ucdavis.edu">My Email</a></li>
+            <li><a href="audio/sources.html">Sources</a></li>
             <li><a href="https://validator.w3.org/check?uri=https://turnesol.github.io/des157a/index.html" target="_blank">HTML Validator</a>
             </li>
             <li><a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank">CSS Validator</a></li>
