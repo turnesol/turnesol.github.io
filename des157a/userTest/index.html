@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> 
+
+    <link href="styles.css" rel="stylesheet">
+
+    <title>Final Project</title>
+</head>
+<body>
+    <body>
+
+        <div id ="userTestOverlay" class="userTestOn">
+            <article id="userTestOverlayGuts">
+                <h2>Welcome to the User Test for my Final!</h2>
+                <p>Explore the different buildings that I have illustrated on campus and then try to explore some of the streets too. :) <br>Thankyou for your help!</p>
+                <button id="userTestBtn">Close</button>
+            </article>
+        </div>
+
+        <div id = "intro">
+            <header>
+                <h1>Erika's UC Davis Map</h1>
+                <h2>DES 157a Fall 2021</h2>
+            </header>
+    
+            <article>
+                <p>Welcome to my map of the campus at the University of California Davis. I have been going to school here for two years now and even though we werent on campus during COVID there are still some buildings that have made an impression on me. Through the classes and the quarters there are some buildings that hold memories that will tickle my brain every time I walk through the doors. Come and explore the buildings with me!</p>
+                
+                <p> Click on any building you like and take a walk down memory lane with me. Or click on some streets to explore!</p>
+            </article>
+    
+        </div>
+    
+        <!-- the clickable buildings -->
+        <article>
+            <div id="cruess"></div>
+            <div id="art"></div>
+            <div id="memorialUnion"></div>
+            <div id="library"></div>
+            <div id="silo"></div>
+    
+        </article>
+    
+    <!-- cruess building  -->
+        <section id="cruessBuildingOverlay" class="cruessOff">
+            <div class = "backgroundBox">
+            <article>
+                <h2>Design</h2>
+                <h1>CRUESS HALL</h1>
+                <p>This is the design building, Cruess Hall. I am getting my degree in design so this building is one I am familiar with. It has quite a few offices for design professors including Dr. Housefield who is the head of the department. I wish I had more classes here but to be honest I only had one in this building. The first thing you will notice walking into Cruess is the stickers all over the building. Comments, quotes and funny sayings line the walls, stairs and doors. They are fun to read and is a unique feature that I have only seen here.</p>
+    
+                <button class="close">Back to Map ></button>
+    
+            </article>
+    
+                <div id="cruessBuilding">
+                    <img src="images/cruess.png" alt="Cruess Hall">
+                </div>
+    
+            </div>
+    
+        </section>
+    
+    <!-- art building  -->
+        <section id="artOverlay" class="artOff">
+            <div class = "backgroundBox">
+            <article>
+                <h2>Arts</h2>
+                <h1>CELEST TURNER WRIGHT HALL</h1>
+                <p>Welcome to the music, art and theater building. If you have been a good student so far you have probably gone into this building to meet with a design counselor! I have had many-a-panicked run into this building pre-COVID. The sad news is that my favorite counselor who never steered me wrong switched offices just last month so she is no longer my counselor here. Good counselors are hard to find.</p>
+    
+                <button class="closeArt">Back to Map ></button>
+    
+            </article>
+    
+                <div id="artBuilding">
+                    <img src="images/theater.png" alt="Wright Hall">
+                </div>
+    
+            </div>
+    
+        </section>
+    
+    <!-- Memorial Union building  -->
+    <section id="memorialUnionOverlay" class="MUOff">
+        <div class = "backgroundBox">
+        <article>
+            <h2>Student Space</h2>
+            <h1>MEMORIAL UNION</h1>
+            <p>One of my first memories made at UC Davis was being in that mad rush in the basement of the student store during the first week of classes to try and buy my equipment for DES 001. The big plastic pouch filled with goodies for the coming quarter. The line was wrapped all through every isle as every one scrambled for their supplies. CoHo has pretty good coffee and sushi is good when shared with friends but I was always deterred by the bible thumpers who would stand outside the doors.</p>
+    
+            <button class = "closeMU" >Back to Map ></button>
+    
+        </article>
+    
+            <div id="memorialUnionBuilding">
+                <img src="images/memorial.png" alt="MU">
+            </div>
+    
+        </div>
+    
+    </section>
+    
+    <!-- Library  building  -->
+    <section id="libraryOverlay" class="libraryOff">
+        <div class = "backgroundBox">
+        <article>
+            <h2>Student Space</h2>
+            <h1>SHIELDS LIBRARY</h1>
+            <p>Being a design major, I never really had the typical college experience of late night in the library trying to study for big exams. Most of my time was spent in studios or in computer labs but that doesnt mean I didn’t get the chance to experience this bizarre building. Have you been to the cages on the higher floors? What about the breast feeding space? Kind of sketchy but I always felt like I could find some nook or cranny to hide myself in for a little while when classes were too much and I didn’t want to rot away inside my dorm. </p>
+    
+            <button class = "closeLibrary" >Back to Map ></button>
+    
+        </article>
+    
+            <div id="libraryBuilding">
+                <img src="images/library.png" alt="library">
+            </div>
+    
+        </div>
+    
+    </section>
+    
+    <!-- silo building  -->
+    <section id="siloOverlay" class="siloOff">
+        <div class = "backgroundBox">
+        <article>
+            <h2>Student Space</h2>
+            <h1>SILO</h1>
+            <p>Of the many evening classes that I have had here at Davis, the one I remember the most is my photography class back in the winter quarter before COVID. I had a digital design class right before so I often ran into the Silo to grab a snack on my way down to the art building. My friends and I would waltz down and use whatever aggie cash I had to buy drinks and snacks. It was always during twilight when I would walk in so the Silo always makes me feel like I am dreaming.</p>
+    
+            <button class = "closeSilo" >Back to Map ></button>
+    
+        </article>
+    
+            <div id="siloBuilding">
+                <img src="images/silo.png" alt="silo">
+            </div>
+    
+        </div>
+    
+    </section>
+
+    
+        <a href="https://www.google.com/maps/@38.5404086,-121.7491776,3a,75y,344.64h,90.37t/data=!3m6!1e1!3m4!1sOcKhI3oDrV_jXJW6lCmn6A!2e0!7i13312!8i6656" target="_blank"><div id="quad"></div></a>
+
+        <a href="https://www.google.com/maps/@38.5428645,-121.7586799,3a,75y,272.08h,89.15t/data=!3m6!1e1!3m4!1suAXNtJqkhk5QUEyZNwBgzg!2e0!7i13312!8i6656" target="_blank"><div id="pavilion"></div></a>
+
+        <a href="https://www.google.com/maps/@38.5390648,-121.7519386,3a,75y,352.13h,85.08t/data=!3m7!1e1!3m5!1snujyZAD8TNH28xDARcwFDQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DnujyZAD8TNH28xDARcwFDQ%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D183.39703%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656" target="_blank"><div id="california"></div></a>
+    
+    
+    
+        <footer>
+            <ul id="validation">
+                <li>
+                    <a href="https://validator.w3.org/check?uri=https://turnesol.github.io/des157a/index.html" target="_blank">HTML Validator</a>
+                </li>
+                <li>
+                    <a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank">CSS Validator</a>
+                </li>
+            </ul>
+    
+        </footer>
+        <script src="script.js"></script>
+    </body>
+    
+</body>
+</html>
