@@ -111,10 +111,14 @@ button:hover{
     position:absolute;
     top:255px;
     left:1190px;
+
+    
 }
 
 #quad:hover{
     background-color: rgba(255, 242, 60, 0.699);
+    animation: blurb 0.6s infinite;
+    animation-direction: alternate;
 }
 
 #pavilion{
@@ -128,6 +132,8 @@ button:hover{
 
 #pavilion:hover{
     background-color: rgba(255, 242, 60, 0.699);
+    animation: blurb 0.6s infinite;
+    animation-direction: alternate;
 }
 
 #california{
@@ -141,6 +147,13 @@ button:hover{
 
 #california:hover{
     background-color: rgba(255, 242, 60, 0.699);
+    animation: blurb 0.6s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes blurb{
+    from {background-color: rgba(255, 242, 60, 0.699);}
+    to{background-color: rgba(255, 242, 60, 0.24);}
 }
 
 /* building animation */

@@ -12,6 +12,21 @@
         e.preventDefault();
         document.getElementById('cruessBuildingOverlay').className = "cruessOff";
     });
+// escape cruess
+    document.addEventListener('keydown', function(e){
+        if(e.key === "Escape"){
+            document.getElementById('cruessBuildingOverlay').className = "cruessOff";
+
+            document.getElementById('artOverlay').className = "artOff";
+
+            document.getElementById('memorialUnionOverlay').className = "MUOff";
+
+            document.getElementById('libraryOverlay').className = "libraryOff";
+
+            document.getElementById('siloOverlay').className = "siloOff";
+        }
+    });
+
 // open art 
     document.querySelector('#art').addEventListener('click', function(e) {
         e.preventDefault();
