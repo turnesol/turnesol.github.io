@@ -1,0 +1,49 @@
+body{
+    width:1000px;
+    padding-left:20%;
+    padding-right:20%;
+    padding-top:20px;
+    padding-bottom:20px;
+    background-color:aliceblue;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    text-align: center;
+    padding-bottom:20px;
+    border-bottom:solid rgb(55, 85, 124) 2px;
+}
+#content{
+    padding-top:40px;
+    display:flex;
+}
+img{
+    width:400px;
+}
+figcaption{
+    padding-bottom: 30px;
+}
+#text{
+    padding-left:30px;
+}
+ol{
+    line-height: 20px;
+}
+p{
+    line-height: 20px;
+
+}
+h1{
+    font-family: 'Satisfy', cursive;
+}
+h2{
+    font-family: 'Satisfy', cursive;
+}
+
+footer{
+    list-style: none;
+    display:flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+}
