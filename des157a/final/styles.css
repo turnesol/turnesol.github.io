@@ -105,13 +105,13 @@ button:hover{
 /* other links */
 
 #quad{
-    width:45px;
-    height:45px;
+    position: absolute;
+    width:30px;
+    height:30px;
     border-radius: 50px;
-    position:absolute;
-    top:255px;
-    left:1190px;
-
+    top:270px;
+    left:1200px;
+    background-color: rgba(255, 242, 60, 0.699);
     
 }
 
@@ -122,12 +122,13 @@ button:hover{
 }
 
 #pavilion{
-    width:45px;
-    height:45px;
+    width:30px;
+    height:30px;
     border-radius: 50px;
     position:absolute;
     top:400px;
     left:790px;
+    background-color: rgba(255, 242, 60, 0.699);
 }
 
 #pavilion:hover{
@@ -137,12 +138,13 @@ button:hover{
 }
 
 #california{
-    width:45px;
-    height:45px;
+    width:30px;
+    height:30px;
     border-radius: 50px;
     position:absolute;
     top:350px;
     left:1060px;
+    background-color: rgba(255, 242, 60, 0.699);
 }
 
 #california:hover{
@@ -157,6 +159,10 @@ button:hover{
 }
 
 /* building animation */
+
+#cruessBuildingOverlay{
+    z-index: 9999;
+}
 
 #cruess {
     position:absolute;
@@ -256,6 +262,10 @@ button{
     height: 103px;
 }
 
+#artOverlay{
+    z-index: 9999;
+}
+
 #art:hover{
     background-color:#ffd00056;
 }
@@ -346,6 +356,10 @@ button{
 
 /* MU button */
 
+#memorialUnionOverlay{
+    z-index: 9999;
+}
+
 #memorialUnion {
     position:absolute;
     top: 134px;
@@ -432,6 +446,10 @@ button{
 }
 
 /* library button  */
+
+#libraryOverlay{
+    z-index: 9999;
+}
 
 #library {
     position:absolute;
@@ -521,6 +539,11 @@ button{
 }
 
 /* silo button  */
+
+#siloOverlay{
+    z-index: 9999;
+}
+
 #silo {
     position:absolute;
     top: 349px;
