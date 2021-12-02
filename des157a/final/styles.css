@@ -39,7 +39,7 @@
 }
 
 body{
-    background-image: url(images/designComp.png);
+    background-image: url(images/backgroundP5.png);
     background-repeat: no-repeat;
     background-size: 1386px, 766px;
     overflow:hidden;
@@ -106,57 +106,46 @@ button:hover{
 
 #quad{
     position: absolute;
-    width:30px;
-    height:30px;
-    border-radius: 50px;
-    top:270px;
+    height:60px;
+    top:230px;
     left:1200px;
-    background-color: rgba(255, 242, 60, 0.699);
     
 }
 
 #quad:hover{
-    background-color: rgba(255, 242, 60, 0.699);
-    animation: blurb 0.6s infinite;
+    animation: grow 0.6s infinite;
     animation-direction: alternate;
 }
 
+@keyframes grow{
+    from {height:60px;}
+    to{height:80px;}
+}
+
 #pavilion{
-    width:30px;
-    height:30px;
-    border-radius: 50px;
+    height:60px;
     position:absolute;
-    top:400px;
-    left:790px;
-    background-color: rgba(255, 242, 60, 0.699);
+    top:150px;
+    left:800px;
 }
 
 #pavilion:hover{
-    background-color: rgba(255, 242, 60, 0.699);
-    animation: blurb 0.6s infinite;
+    animation: grow 0.6s infinite;
     animation-direction: alternate;
 }
 
 #california{
-    width:30px;
-    height:30px;
-    border-radius: 50px;
+    height:60px;
     position:absolute;
-    top:350px;
-    left:1060px;
-    background-color: rgba(255, 242, 60, 0.699);
+    top:550px;
+    left:1040px;
 }
 
 #california:hover{
-    background-color: rgba(255, 242, 60, 0.699);
-    animation: blurb 0.6s infinite;
+    animation: grow 0.6s infinite;
     animation-direction: alternate;
 }
 
-@keyframes blurb{
-    from {background-color: rgba(255, 242, 60, 0.699);}
-    to{background-color: rgba(255, 242, 60, 0.24);}
-}
 
 /* building animation */
 
